@@ -62,6 +62,7 @@ body {
   transform: scale(1.2);
 }
 .navbar-brand img {
+  width: 10rem;
   border-radius: 120px;
 }
 
@@ -151,15 +152,8 @@ body {
   background-color: #5c73d8;
 }
 .redes_p img {
-  border-radius: 80px;
-}
-
-.fabricacion .artesanal {
-  padding-left: 10px;
-}
-
-.fabricacion .artesanal h2 {
-  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border-radius: 100px;
 }
 
 
