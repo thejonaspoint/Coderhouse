@@ -3,11 +3,12 @@
     text-align: center;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-bottom: auto;
     background: $backgoundColorFooter;
     svg{
-         width: 15px; 
-         background-color: rgba(251, 255, 255, 0);
+         width: 16px;
+         background-color: rgba(0, 0, 0, 0);
     }
     img{
           position:fixed;
@@ -17,7 +18,6 @@
           bottom:25px;
           right:25px;
           background:#345dce;
-          color: colorPrincipal;
           border-radius:50px;
           text-align:center;
           font-size:35px;

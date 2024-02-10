@@ -3,11 +3,18 @@
     padding: 30px 0;
     h3 {
         font-family: $alfaSlab;
-        font-size: 28px;
+        font-size: 35px;
         color: $primaryColor;
+        text-align: center;
+        p{
+            text-align: justify;
+        }
+    
+        }
     }
-}
-.video{
-    width: 250px;
-    border-radius: 20px;
-} 
+    .video{
+        border-radius: 80px;
+        width: 16rem;
+        border-radius: 20px;
+        margin-left: 40px;
+    }

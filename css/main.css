@@ -62,7 +62,7 @@ body {
   transform: scale(1.2);
 }
 .navbar-brand img {
-  width: 10rem;
+  width: 6rem;
   border-radius: 120px;
 }
 
@@ -94,8 +94,7 @@ body {
   font-family: "Alfa Slab One", cursive;
   font-size: 2.5em;
   letter-spacing: 1px;
-  background-image: url("/assents/imagen/ml_logo.jpeg");
-  border-radius: 8px;
+  border-radius: 80px;
 }
 .bannerPrincipal p {
   font-family: "Open Sans", sans-serif;
@@ -127,10 +126,13 @@ body {
 }
 .art_exp img {
   display: inline;
-  padding-top: 10px;
+  padding-top: 50px;
   width: 9rem;
-  border-radius: 120px;
+  border-radius: 130px;
   justify-content: space-around;
+}
+.art_exp p {
+  text-align: justify;
 }
 
 .card_producto {
@@ -139,6 +141,7 @@ body {
   height: 400px;
   background-color: #ffffff;
   margin: 20px;
+  margin-left: 30px;
   box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
@@ -148,12 +151,23 @@ body {
   height: 200px;
 }
 
+.container {
+  margin-left: 10px;
+}
+
 .redes_p {
   background-color: #5c73d8;
 }
 .redes_p img {
   padding: 10px 10px 10px 10px;
   border-radius: 100px;
+}
+
+.sec_lab {
+  padding-left: 30px;
+}
+.sec_lab h2 {
+  text-align: left;
 }
 
 
@@ -171,13 +185,19 @@ body {
 }
 .fondovideo h3 {
   font-family: "Alfa Slab One", cursive;
-  font-size: 28px;
+  font-size: 35px;
   color: #202930;
+  text-align: center;
+}
+.fondovideo h3 p {
+  text-align: justify;
 }
 
 .video {
-  width: 250px;
+  border-radius: 80px;
+  width: 16rem;
   border-radius: 20px;
+  margin-left: 40px;
 }
 
 .footer_d {
@@ -185,12 +205,13 @@ body {
   text-align: center;
   align-items: center;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-bottom: auto;
   background: linear-gradient(115deg, rgba(42, 91, 197, 0.908) 0%, rgb(126, 147, 165) 100%);
 }
 .footer_d svg {
-  width: 15px;
-  background-color: rgba(251, 255, 255, 0);
+  width: 16px;
+  background-color: rgba(0, 0, 0, 0);
 }
 .footer_d img {
   position: fixed;
@@ -200,7 +221,6 @@ body {
   bottom: 25px;
   right: 25px;
   background: #345dce;
-  color: colorPrincipal;
   border-radius: 50px;
   text-align: center;
   font-size: 35px;
@@ -273,12 +293,13 @@ body {
 .row .servirles {
   height: auto;
   max-width: 400px;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 .row .servirles h3 {
   font-family: "Alfa Slab One", cursive;
   font-size: 28px;
   color: #4a61e4;
+  text-align: center;
 }
 .row .servirles p {
   font-size: 16px;
@@ -286,11 +307,13 @@ body {
 .row form {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 20rem;
   background-color: #5c73d8;
-  padding: 20px 40px;
+  padding: 20px 30px;
+  margin-left: 10px 50px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
+  text-align: center;
 }
 .row form label {
   margin: 10px;
@@ -304,8 +327,9 @@ body {
 .row form textarea {
   height: 60px;
   width: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
 }
 .row form .btnGenerico {
   border: none;
@@ -321,6 +345,11 @@ body {
 }
 .img_redes img {
   width: 8rem;
+}
+
+.contacto {
+  padding-left: 30px;
+  text-align: justify;
 }
 
 .tarjeta {
@@ -354,6 +383,10 @@ body {
   margin-top: 15px;
   background-color: #5c73d8;
   padding: 15px 20px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Estilos para pantallas grandes */
 }
 
 /*# sourceMappingURL=main.css.map */

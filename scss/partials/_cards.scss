@@ -18,10 +18,13 @@
    text-align: center;
    img{
     display: inline;
-    padding-top: 10px;
+    padding-top: 50px;
     width: 9rem;
-    border-radius: 120px;
+    border-radius: 130px;
     justify-content: space-around;
+   }
+   p{
+    text-align: justify;
    }
 }
 .card_producto{
@@ -30,6 +33,7 @@
     height: 400px;
     background-color:#ffffff;
     margin: 20px;
+    margin-left: 30px;
     box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
 -webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
@@ -37,4 +41,7 @@
         width: 15rem;
         height: 200px;
     }
+}
+.container{
+    margin-left: 10px;
 }
