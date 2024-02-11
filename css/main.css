@@ -41,6 +41,7 @@ h2 {
 }
 
 body {
+  width: 100%;
   background-color: #fbfbfb;
   font-family: "Open Sans", sans-seri;
   font-size: 16px;
@@ -189,14 +190,14 @@ body {
   text-align: center;
 }
 .fondovideo h3 p {
-  text-align: justify;
+  text-align: center;
 }
 
 .video {
-  width: 100%;
+  width: 80%;
   border-radius: 30px;
-  width: 16rem;
-  margin-left: 40px;
+  width: 15rem;
+  margin-left: 50px;
 }
 
 .footer_d {
@@ -330,6 +331,8 @@ body {
   padding: 20px;
 }
 .row form .btnGenerico {
+  background-color: #043886;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 30px;
   display: flex;
@@ -383,8 +386,18 @@ body {
   padding: 15px 20px;
 }
 
-@media only screen and (min-width: 1025px) {
-  /* Estilos para pantallas grandes */
+@media only screen and (max-width: 600px) {
+  .card {
+    color: rgb(0, 0, 0);
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  .card {
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
