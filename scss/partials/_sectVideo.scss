@@ -6,15 +6,17 @@
         font-size: 35px;
         color: $primaryColor;
         text-align: center;
-        p{
-            text-align: center;
-        }
-    
         }
     }
+.textvideo{
+    margin-left: 10px;
+    text-align: justify;
+}
+
     .video{
         width: 80%;
         border-radius: 30px;
         width: 15rem;
+        margin-right: auto;
         margin-left: 50px;
     }

@@ -1,3 +1,4 @@
+//barra de navegacion
 .bannerPrincipal{
     display: flex;
     align-items: center;
@@ -8,6 +9,7 @@
     background-size: cover;
     background-blend-mode: darken;
     height: 70vh;
+    //titulo Principal
     .tituloPrincipal {
         color: $bannerFontColor;
         font-family: $alfaSlab;
