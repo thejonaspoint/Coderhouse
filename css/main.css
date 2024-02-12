@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600;800&display=swap");
+.bi-instagram {
+  width: 16px;
+  heigth: 16px;
+}
+.bi-instagram:hover {
+  box-shadow: 2px 1px 15px #9b2a59;
+}
+
+.bi-facebook {
+  width: 16px;
+  heigth: 16px;
+}
+.bi-facebook:hover {
+  box-shadow: 2px 1px 15px #2a4eb1;
+}
+
+.bi-whatsapp {
+  width: 16px;
+  heigth: 16px;
+}
+.bi-whatsapp:hover {
+  box-shadow: 2px 1px 15px #0de031;
+}
+
 .btnGenerico {
   background-color: #2982c7;
   color: #000000;

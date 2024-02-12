@@ -8,3 +8,20 @@ $backgoundColorFooter: linear-gradient(115deg, rgba(42, 91, 197, 0.908) 0%, rgb(
 $bgazul:  #5c73d8;
 $bgblanco: #dfdfec;
 $btncont:#309bad;
+
+$colors:(
+      instagram:#9b2a59,
+      facebook: #2a4eb1,
+      whatsapp: #0de031,
+
+);
+
+@each $colores, $valor_colores in $colors{
+      .bi-#{$colores}{
+            width:16px;
+            heigth: 16px;
+            &:hover{
+                  box-shadow: 2px 1px 15px $valor_colores;
+            }
+      }
+}
