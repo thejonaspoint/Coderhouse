@@ -234,7 +234,7 @@ body {
   text-align: center;
   padding-top: 10px;
   margin-bottom: auto;
-  background: linear-gradient(115deg, rgba(42, 91, 197, 0.908) 0%, rgb(126, 147, 165) 100%);
+  background-color: #345dce;
 }
 .footer_d svg {
   width: 16px;
